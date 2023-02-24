@@ -22,7 +22,6 @@ h6 {
 
 .header {
     margin: 0 auto;
-    padding: 0 15px;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -41,10 +40,10 @@ body {
 
 
 .header-container {
+
     display: flex;
     align-items: center;
     gap: 40px;
-
 }
 
 .header-nav {
@@ -170,7 +169,6 @@ ul {
     display: block;
     padding: 24px 0;
     color: var(---text-color);
-    display: list-item;
     text-decoration: none;
 }
 
@@ -224,13 +222,13 @@ ul {
 
 /* Button */
 
+
+
 .portfolio {
-    width: 100%;
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+
     padding-top: 96px;
     padding-bottom: 120px;
+
 }
 
 
@@ -251,8 +249,7 @@ ul {
 
 
 .button-btn {
-    margin-right: 24px;
-    margin-right: 24px;
+
     font-family: inherit;
     background: var(---primary-btn-color);
     font-weight: 500;
@@ -263,6 +260,7 @@ ul {
     color: var(---primary-background-color);
     border: var(---primary-btn-color);
     padding: 12px 24px;
+    margin-right: auto;
 }
 
 .button-btn :focus,
@@ -281,15 +279,14 @@ ul {
     border-radius: 4px;
     cursor: pointer;
     color: var(---primary-background-color);
-    border: var(---primary-btn-color);
+    border: none;
     padding: 16px 32px;
-    gap: 10px;
     margin: 0 auto;
     display: block;
 }
 
 .button-service:hover {
-    background: var(---tap-link-color);
+    background-color: var(---tap-link-color);
 
 
 }
@@ -383,7 +380,7 @@ ul {
 }
 
 .about-item {
-    flex-basis: calc((100%-72px) /4);
+    flex-basis: calc((100% - 72px) /4);
 }
 
 .text {
@@ -422,7 +419,7 @@ ul {
     max-width: 100%;
     text-decoration: none;
     background-color: var(---primary-background-color);
-    flex-basis: calc((100%-72px) /4);
+    flex-basis: calc((100% - 72px) /4);
     text-align: center;
 }
 
@@ -433,12 +430,12 @@ ul {
 
 
 .team-card-content {
-    padding: 32px 60px 32px 60px;
+    padding: 32px 16px;
 
 }
 
 .item-card {
-    flex-basis: calc((100%-48px) /3);
+    flex-basis: calc((100% - 48px) /3);
 }
 
 .works-section {
@@ -544,7 +541,7 @@ ul {
     margin-right: -24px;
     margin-bottom: -48px;
     list-style-type: none;
-    flex-basis: calc((100% - 2 * 24px)/3);
+
 }
 
 .card-list {
@@ -571,7 +568,6 @@ ul {
     letter-spacing: 0.02em;
     color: var(---secondary-background-color);
     text-decoration: none;
-    padding-top: 32px;
     margin-bottom: 8px;
 
 }
@@ -586,14 +582,15 @@ ul {
     letter-spacing: 0.02em;
     color: var(---text-color);
     text-decoration: none;
-
+    margin-bottom: 0;
 
 }
 
+
+
 .portfolio-content {
-    padding-left: 16px;
-    padding-bottom: 32px;
-    padding-top: 32px;
+
+    padding: 32px 16px;
     border-right: 1px solid #E7E9FC;
 
     border-left: 1px solid #E7E9FC;
